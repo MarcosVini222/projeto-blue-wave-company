@@ -1,50 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="pagina login" />
+    <meta
+      name="keywords"
+      content="login, fiap, ads, programação, global solution, oceano. "
+    />
+    <title>LOGIN</title>
   </head>
   <body>
+    <header>
+      <img src="./img/onda.png" alt="onda minimalista em preto" />
+    </header>
     <main>
       <section>
         <form role="form" aria-labelledby="login-title">
           <h3>LOGIN</h3>
           <input
             type="text"
-            placeholder="Nome completo"
-            id="Nome"
+            placeholder="Username"
+            id="Username"
             aria-required="true"
             required
           />
-          <p class="required-text">*campo obrigatório</p>
           <input
             type="password"
-            placeholder="Senha"
-            id="Senha"
+            placeholder="Password"
+            id="password"
             aria-required="true"
             required
           />
-          <p class="required-text">*campo obrigatório</p>
           <input type="submit" value="Login" onclick="logar(); return false" />
           <nav class="navegacao">
             <a href="./index.html">Navegar sem login</a>
           </nav>
         </form>
-
-        <script>
-          function logar() {
-            var login = document.getElementById("Nome").value;
-            var senha = document.getElementById("Senha").value;
-
-            if (login === "admin" && senha === "admin") {
-              alert("Sucesso");
-              location.href = "index.html";
-            } else {
-              alert("Login ou senha incorretos");
-            }
-          }
-        </script>
       </section>
     </main>
   </body>
