@@ -1,0 +1,14 @@
+body{
+    background-color: #3873A6;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    box-sizing: border-boxx;
+    justify-content: center;
+    align-items: center;
+}
+.container h3{
+    text-align: center;
+}

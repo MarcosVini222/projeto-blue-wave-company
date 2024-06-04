@@ -5,41 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="pagina login" />
     <meta name="keywords" content="login, fiap, ads, programação, global solution, oceano. "/>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../CSS/styleLogin.css">
 
     <title>LOGIN</title>
   </head>
   <body>
+    
     <header>
       <img src="./img/onda.png" alt="onda minimalista em preto" />
     </header>
-
     <main>
-      <section>
-        <form role="form" aria-labelledby="login-title">
-          <h3>LOGIN</h3>
-          <input
-            type="text"
-            placeholder="Username"
-            id="Username"
-            aria-required="true"
-            required
-          />
-          <img src="./img/user.png" alt="um icone de user  em branco" />
-          <input
-            type="password"
-            placeholder="Password"
-            id="password"
-            aria-required="true"
-            required
-          />
-          <img src="./img/lock.png" alt="icone de cadeado em branco" />
-          <input type="submit" value="Login" onclick="logar(); return false" />
-          <nav class="navegacao">
-            <a href="./index.html">Navegar sem login</a>
-          </nav>
-        </form>
-      </section>
+      <div class="container">
+        <div class="item">
+          <section>
+            <h3>LOGIN</h3>
+            <form role="form" aria-labelledby="login-title">
+              <div class="gpForm1">
+                <input type="text" placeholder="Username" id="Username" aria-required="true" required/>
+                <img src="./img/user.png" alt="um icone de user  em branco" />
+              </div>
+              <div class="gpForm2">
+                <input type="password" placeholder="Password" id="password" aria-required="true" />
+                <img src="./img/lock.png" alt="icone de cadeado em branco" />
+              </div>
+              <button id="btnLogin"> Login </button>
+              <nav class="navegacao">
+                <a href="./index.html">Navegar sem login</a>
+              </nav>
+            </form>
+          </section>
+        </div>
+      </div>
     </main>
 
     <footer>
