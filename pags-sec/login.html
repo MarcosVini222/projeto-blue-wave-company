@@ -14,7 +14,7 @@
   </head>
   <body>
     <header>
-      <img src="../img/onda.png" alt="onda minimalista em preto" />
+      <img src="../img/onda.png" alt="onda minimalista em preto" id="imgPrincipal"/>
     </header>
     <main>
       <div class="container">
@@ -23,6 +23,7 @@
             <h3>LOGIN</h3>
             <form role="form" aria-labelledby="login-title">
               <div class="gpForm1">
+                <img src="../img/user.png" alt="um icone de user  em branco" class="icones"/>
                 <input
                   type="text"
                   placeholder="Username"
@@ -30,26 +31,25 @@
                   aria-required="true"
                   required
                 />
-                <img src="../img/user.png" alt="um icone de user  em branco" />
               </div>
               <div class="gpForm2">
+                <img src="../img/lock.png" alt="icone de cadeado em branco" class="icones" />
                 <input
                   type="password"
                   placeholder="Password"
                   id="password"
                   aria-required="true"
                 />
-                <img src="../img/lock.png" alt="icone de cadeado em branco" />
               </div>
               <button id="btnLogin">Login</button>
-              <nav class="navegacao">
-                <a href="../index.html">Navegar sem login</a>
-              </nav>
             </form>
           </section>
         </div>
       </div>
     </main>
+    <nav class="navegacao">
+      <a href="../index.html">Navegar sem login</a>
+    </nav>
 
     <footer>
       <p>Juntos pelo Oceano: Protegendo hoje para viver amanhã!</p>

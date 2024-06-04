@@ -5,10 +5,54 @@ body{
 }
 .container{
     display: flex;
-    box-sizing: border-boxx;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
+    
+    
+}
+.item{
+    width: 400px;
+    height: 340px;
 }
 .container h3{
     text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 0px;
+
+}
+footer{
+    margin-top: 140px;
+    text-align: center;
+    
+
+}
+footer p{
+    color: white;
+}
+#imgPrincipal{
+
+}
+
+#btnLogin{
+    margin-top: 20px;
+    margin-left: 175px;
+    background-color: #2D5696;
+}
+a{
+    
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-left: 794px;
+    color: white;
+    text-decoration: none;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 60px;
+    width: 300px;
+    
 }
