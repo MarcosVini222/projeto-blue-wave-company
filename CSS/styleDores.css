@@ -34,8 +34,8 @@ body{
 }
 .item1{
     width: 260px;
-    height: 200px;
-    margin-top: 60px;
+    height: 230px;
+    margin-top: 10px;
 }
 .itemNav:hover{
     transition: 2s;
