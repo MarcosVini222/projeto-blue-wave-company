@@ -44,7 +44,7 @@ body{
     scale: 1.1;
 }
 h1{
-    margin-top: 30px;
+    margin-top: 20px;
     color: #3873A6;
     text-align: center;
     font-size: 60px;
@@ -56,4 +56,32 @@ h1{
     text-align: center;
     font-size: 19px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container3{
+    margin-top: 80px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+}
+.section5 h3{
+    margin-top: 90px;
+    text-align: center;
+    color:white;
+    font-family: serif;
+
+}
+footer{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #2D5696;
+    margin-top: 113px;
+}
+footer h3{
+    font-size: 25px;
+    font-family: serif;
+
 }
