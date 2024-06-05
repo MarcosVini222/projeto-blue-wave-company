@@ -1,71 +1,63 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.container1{
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
+.container1 {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
 }
-.container1 h1{
-    color: #3873A6;
-    font-size: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-
+.container1 h1 {
+  color: #3873a6;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.imgOnda{
-    left: 0;
-    margin-right: 40px;
-    gap: 2px;
-    margin-left: 2px;
-    height: 230px;
-    width: 200px;
-    margin-right: 50px;
-    left: 10;
+.imgOnda {
+  left: 0;
+  margin-right: 40px;
+  gap: 2px;
+  margin-left: 2px;
+  height: 230px;
+  width: 200px;
+  margin-right: 50px;
+  left: 10;
 }
-.item1{
-    top: 30;
-    margin-bottom: 180px;
-    
-
+.item1 {
+  top: 30;
+  margin-bottom: 180px;
 }
-.item2{
-    margin-left: 500px;
-
+.item2 {
+  margin-left: 500px;
 }
-.item h1{
-    display:inline-block;
-    margin-left: 70px;
-    margin-right: 0px;
-
+.item h1 {
+  display: inline-block;
+  margin-left: 70px;
+  margin-right: 0px;
 }
-.subContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.subContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#container2{
-    display: flex;
-    box-sizing: border-box;
-    justify-content: space-around;
-    align-items: center;
-    
+#container2 {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
 }
-footer{
-    margin-top: 120px;
+footer {
+  margin-top: 120px;
 }
-footer p{
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #3873A6 ;
-    font-size: 25px;
-
+footer h3 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #3873a6;
+  font-size: 25px;
 }
-li{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-top: 10px;
-    color: #3873A6;
-    text-decoration: none;
-    list-style-type: none;
+li {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 10px;
+  color: #3873a6;
+  text-decoration: none;
+  list-style-type: none;
 }
