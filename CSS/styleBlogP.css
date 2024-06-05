@@ -22,7 +22,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 250px;
+    margin-top: 200px;
 }
 .item{
     
@@ -46,4 +46,16 @@ h3{
 h2{
     font-size: 45px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container3{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 350px;
+    
+}
+.container3 h3{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
 }
