@@ -34,3 +34,14 @@ function login(event){
     }
 
 }
+
+function checkAuth() {
+    const user = sessionStorage.getItem("user");
+    if (!user) {
+        window.location.href = "login.html";
+    } else {
+        const userInfo = JSON.parse(user);
+        const userInfoElement = document.getElementById("infoUsuario");
+        userInfoElement.innerHTML = `<p>Bem-vindo, ${userInfo.name} (${userInfo.username})</p>`;
+    }
+}
