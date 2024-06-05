@@ -75,3 +75,17 @@ h4{
     line-height: 1.3;
 
 }
+.container3{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    margin-bottom: 60px;
+    gap: 50px;
+}
+.container3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
