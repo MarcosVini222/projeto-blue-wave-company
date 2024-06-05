@@ -85,3 +85,8 @@ footer h3{
     font-family: serif;
 
 }
+.item:hover{
+    transition: 1.5s;
+    scale: 1.2;
+
+}
