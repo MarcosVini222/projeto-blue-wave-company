@@ -158,14 +158,89 @@ body{
 
 
 @media screen and (max-width: 1024px){
+    .container3{
+        margin-left: 180px;
+        margin-top: 40px;
+    }
+    .container4{
+        margin-left: 180px;
+    }
+    .container2{
+        margin-left: 20px;
+    }
+    .txtPrincipal{
+
+    }
+    .container3{
+        margin-left:120px;
+    }
 
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:900px){
+
+    .container5{
+        margin-left: 80px;
+    }
+    .txtPrincipal{
+        margin-left: 60px;
+    }
+    .container3{
+        margin-left:300px;
+    }
+    .txtSection2 h3, .txtSection2 h5{
+        font-size: 16px;
+        margin-left: 90px;
+    }
+    .containerImg{
+        margin-left: 70px;
+    }
+    .imgPeixeE, .imgPeixeD{
+        width: 300px;
+    }
+    .imgLixo, .imgOceano{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:710px){
+    .imgPeixeE, .imgPeixeD{
+        width: 300px;
+    }
+    .imgLixo, .imgOceano{
+        width: 300px;
+        height: 300px;
+    }
 
     
 }
-@media screen and (max-width:375px){
-    
-    
+@media screen and (max-width:455px){
+    .txtPrincipal{
+        margin-left: 200px;
+
+    }
+    .imgPeixeE, .imgPeixeD{
+        width: 280px;
+    }
+    .containerImg{
+        margin-left: 200px;
+    }
+    .txtSection2 h3, .txtSection2 h5{
+        font-size: 14px;
+        margin-left: 90px;
+    }
+    .txtSection2{
+        margin-left: 80px; 
+    }
+    .container5{
+        margin-left: 130px;
+        column-gap: 50px;
+
+    }
+    .container3{
+        margin-left: 390px;
+    }
+    .container4{
+        margin-left: 340px;
+    }
 }
