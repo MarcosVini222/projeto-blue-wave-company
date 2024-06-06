@@ -53,3 +53,68 @@ body{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width: 1024px){
+    .itemImg{
+        width: 200px;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 772px){
+    .itemImg{
+        width: 150px;
+        height: 350px;
+    }
+    .container2 h1{
+        font-size: 30px;
+
+    }
+    .container2 h3{
+        font-size: 15px;
+
+    }
+    .container4 h3{
+        font-size: 15px;
+
+    }
+
+    
+
+}
+@media screen and (max-width: 479px){
+    .itemImg{
+        width: 100px;
+        height: 200px;
+    }
+    .container2 h1{
+        font-size: 20px;
+
+    }
+    .container2 h3{
+        font-size: 10px;
+
+    }
+    .container4 h3{
+        font-size: 10px;
+
+    }
+}
+@media screen and (max-width: 308px){
+    .itemImg{
+        width: 70px;
+        height: 150px;
+    }
+    .container2 h1{
+        font-size: 15px;
+
+    }
+    .container2 h3{
+        font-size: 8px;
+
+    }
+    .container4 h3{
+        font-size: 8px;
+
+    }
+
+}
