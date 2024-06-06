@@ -47,6 +47,7 @@ p{
     box-sizing: border-box;
     flex-direction: column;
     row-gap: 50px;
+    margin-right: 0px;
     
         
 }
@@ -95,4 +96,44 @@ h4{
 }
 .itemC3{
     margin-right: 20px;
+}
+@media screen and (max-width: 1511px){
+    .container2 h3{
+        margin-left: 300px;
+    }
+    .container2 p{
+        margin-left: 300px;
+    }
+    .container2 h4{
+        margin-left: 300px;
+    }
+
+
+}
+@media screen and (max-width: 986px){
+    .container2 h3{
+        margin-left: 200px;
+    }
+    .container2 p{
+        margin-left: 200px;
+        font-size: 10px;
+    }
+    .container2 h4{
+        margin-left: 200px;
+        margin-right: 0px
+    }
+}
+
+@media screen and (max-width: 759px){
+    .container2 h3{
+        margin-left: 150px;
+    }
+    .container2 p{
+        margin-left: 150px;
+        font-size: 10px;
+    }
+    .container2 h4{
+        margin-left: 150px;
+        margin-right: 0px
+    }
 }
