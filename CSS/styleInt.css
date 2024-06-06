@@ -46,7 +46,11 @@
   align-items: center;
 }
 footer {
-  margin-top: 120px;
+  margin-top: 143px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+
 }
 footer h3 {
   text-align: center;
