@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+
+}
+#container{
+    display: flex;
+    box-sizing: border-box;
+    
+
+}
+.container2{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+.container2 h1{
+    color: #3873a6;
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container2 h3{
+    color: #3873a6;
+    font-size: 25px;
+}
