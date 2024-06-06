@@ -90,3 +90,97 @@ footer h3{
     scale: 1.2;
 
 }
+
+/* Estilos para desktop */
+@media only screen and (min-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  
+    header {
+      padding: 20px;
+    }
+  
+    .itemC1, .container2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .itemc2 {
+      margin-left: 20px;
+    }
+  
+    .container3 {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .item {
+      width: 30%;
+    }
+  }
+  
+  /* Estilos para tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      padding: 15px;
+    }
+  
+    .itemC1, .container2 {
+      display: block;
+      text-align: center;
+    }
+  
+    .itemc2 {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .container3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .item {
+      width: 45%;
+    }
+  }
+  
+  /* Estilos para smartphones */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 12px;
+    }
+  
+    header {
+      padding: 10px;
+    }
+  
+    .itemC1, .container2 {
+      display: block;
+      text-align: center;
+    }
+  
+    .itemc2 {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .container3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .item {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+  
