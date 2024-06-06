@@ -92,3 +92,14 @@ input {
 .img{
   height: 250px;
 }
+.container p{
+  margin-left: 68px;
+}
+#sucessoLogin{
+  color: green;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#erroLogin{
+  color: red;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
