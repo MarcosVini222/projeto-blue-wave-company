@@ -125,3 +125,70 @@ h3{
     font-size: 20px;
 }
 
+@media screen and (max-width: 1024px){
+    .textInicio{
+        margin-left: 80px;
+    }
+    h3{
+        margin-left: 80px;
+    }
+    .img{
+        margin-left: 200px;
+    }
+    p{
+    
+    }
+    .container3{
+        margin-left: 50px;
+    }
+    .container5{
+        margin-left: 40px;
+
+    }
+
+}
+@media screen and (max-width: 935px){
+    .textInicio{
+        margin-left: 80px;
+    }
+    h3{
+        margin-left: 10px;
+    }
+    .img{
+        margin-left: 250px;
+        width: 400px;
+        height: 350px;
+    }
+    p{
+    
+    }
+    .container3{
+        margin-left: 50px;
+    }
+    .container5{
+        margin-left: 40px;
+
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .img{
+        margin-left: 160px;
+        width: 300px;
+        height: 250px;
+    }
+    .textInicio{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 465px){
+    .img{
+        margin-left: 140px;
+    }
+    .textInicio{
+        margin-left: 40px;
+        font-size: 20px;
+    }
+}
