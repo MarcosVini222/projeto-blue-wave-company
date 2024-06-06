@@ -103,3 +103,18 @@ input {
   color: red;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+@media screen and (max-width: 581px){
+  .container2 h3{
+    font-size: 10px;
+  }
+
+
+}
+@media screen and (max-width: 320px){
+  .container h3{
+    margin-left: 50px;
+  }
+
+
+}
