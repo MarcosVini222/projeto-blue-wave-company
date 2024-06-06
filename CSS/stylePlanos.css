@@ -30,3 +30,14 @@ body{
     color: #3873a6;
     font-size: 25px;
 }
+.container3{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    margin-top: 50px;
+ 
+}
+.itemImg{
+    height: 480px;
+    width: 350px;
+}
