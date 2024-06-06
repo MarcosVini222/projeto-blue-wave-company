@@ -42,8 +42,12 @@ body{
     scale: 1.1;
 }
 .txtPrincipal{
-    margin-top: 70px;
-    margin-bottom: 200px;
+    margin-top: 50px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-bottom: 40px;
+    
 }
 .textInicio{
     text-align: center;
@@ -66,7 +70,7 @@ h3{
     font-size: 20px;
     text-align: center;
     font-size: 27px;
-    margin-top: 20px;
+    margin-top: 10px;
 
 }
 .pItem3{
