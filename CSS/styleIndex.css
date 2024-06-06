@@ -53,12 +53,15 @@ body{
 .txtPrincipal h1{
     font-size: 40px;
 }
-.imgPeixeE{
-    margin-left: 350px;
-}
+
 .txtSection2{
-    margin-bottom: 70px;
-    margin-left: 90px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 .txtSection2 h3{
     font-size: 30px;
@@ -146,4 +149,9 @@ body{
 }
 .pRedeSocial{
     font-size: 20px;
+}
+.containerImg{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
 }
