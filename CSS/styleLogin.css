@@ -26,15 +26,6 @@ header {
   margin-bottom: 0px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-footer {
-  margin-top: 201px;
-  text-align: center;
-}
-footer h3 {
-  color: white;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
 #imgPrincipal {
   width: 200px;
   height: 200px;
@@ -49,13 +40,7 @@ footer h3 {
   border-radius: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-a {
-  margin-top: 80px;
-  margin-left: 777px;
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-}
+
 input {
   border-radius: 10px;
   height: 30px;
@@ -75,4 +60,35 @@ input {
 .icone2 {
   margin-left: 0px;
   height: 44px;
+}
+.container2{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  margin-top: 230px;
+  
+}
+.container2 h3{
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.navegacao{
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.navegacao a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.headerCont{
+  display: flex;
+  box-sizing: border-box;
+  
+}
+.img{
+  height: 250px;
 }
