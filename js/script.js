@@ -24,10 +24,9 @@ document.addEventListener("DOMContentLoaded", function() {
         successMessage.classList.add("login-success");
       }
       
-      // Adicionando um pequeno atraso antes de redirecionar para a página index.html
       setTimeout(function() {
         window.location.href = "index.html";
-      }, 1000); // Atraso de 1 segundo (1000 milissegundos)
+      }, 1000); 
     } else {
       const errorElement = document.getElementById("erroLogin");
       errorElement.textContent = "Username ou senha inválidos";
