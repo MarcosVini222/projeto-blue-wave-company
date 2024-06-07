@@ -65,6 +65,20 @@ li {
   list-style-type: none;
 }
 
+@media screen and (max-width: 1024px){
+  .subContainer{
+    margin-left: 20px;
+  }
+  .imgSection{
+    width: 150px;
+    height: 150px;
+
+  }
+  li{
+    font-size: 13px;
+  }
+
+}
 @media screen and (max-width: 1024px) {
   .item2 {
     margin-left: 170px;
