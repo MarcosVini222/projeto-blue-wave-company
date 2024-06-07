@@ -40,6 +40,11 @@ header {
   border-radius: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+#btnLogin:hover{
+  transition: 2s;
+  scale: 1.1;
+  cursor: pointer;
+}
 
 input {
   border-radius: 10px;
