@@ -125,6 +125,26 @@ h3{
     font-size: 20px;
 }
 
+@media screen and (max-width: 2560px){
+    .img{
+        margin-left: 960px;
+    }
+}
+@media screen and (max-width: 2120px){
+    .img{
+        margin-left: 540px;
+    }
+}
+@media screen and (max-width: 1432px){
+    .img{
+        margin-left: 340px;
+    }
+}
+@media screen and (max-width: 1136px){
+    .img{
+        margin-left: 240px;
+    }
+}
 @media screen and (max-width: 1024px){
     .textInicio{
         margin-left: 80px;
