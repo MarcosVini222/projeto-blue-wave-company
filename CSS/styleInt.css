@@ -64,7 +64,63 @@ li {
   text-decoration: none;
   list-style-type: none;
 }
+@media screen and (max-width: 2560px){
+  .subContainer{
+    margin-left: 900px;
+  }
+  .imgSection{
+    width: 300px;
+    height: 300px;
 
+  }
+  li{
+    font-size: 30px;
+  }
+
+}
+@media screen and (max-width: 2052px){
+  .subContainer{
+    margin-left: 800px;
+  }
+  .imgSection{
+    width: 250px;
+    height: 250px;
+
+  }
+  li{
+    font-size: 26px;
+  }
+
+}
+
+@media screen and (max-width:1592px){
+  .subContainer{
+    margin-left: 600px;
+  }
+  .imgSection{
+    width: 200px;
+    height: 200px;
+
+  }
+  li{
+    font-size: 22px;
+  }
+
+}
+@media screen and (max-width: 14417px){
+  .subContainer{
+    margin-left: 35px;
+  }
+  .imgSection{
+    width: 180px;
+    height: 180px;
+
+  }
+  li{
+    font-size: 20px;
+  }
+
+}
 @media screen and (max-width: 1024px){
   .subContainer{
     margin-left: 20px;
